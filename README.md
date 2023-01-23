@@ -28,18 +28,20 @@ COMMAND ARGS`LF`PAYLOAD`CRLF` `CRLF`
 
 **A simple example**
 ```
-const Broker = require('../packages/broker/lib/index');
-const Client = require('../packages/client/lib/index')
-const utils=require('../packages/common/lib/index')
+const {Server,LogLevel}=require("@liquefied/broker")
+const {Client}=require('@liquefied/client')
+
+const broker=new Server("8080",LogLevel.All)
+broker.start()
+
 
 // start the message broker server
-const broker = new Broker.Server(8080,utils.LogLevel.All);
-broker.start();
-//Create a subscriber
-const subscriber = new Client.Client(8080, "127.0.0.1",utils.LogLevel.All)
-//Create a publisher
-const publisher = new Client.Client(8080, "127.0.0.1",utils.LogLevel.All);
+const broker=new Server("8080",LogLevel.All)
+broker.start()
 
+const subscriber = new Client(8080, "127.0.0.1",LogLevel.All)
+//Create a publisher
+const publisher = new Client(8080, "127.0.0.1",LogLevel.All);
 async function run() {
     await subscriber.connect();
     // When a new message has been received, trigger the callback
