@@ -23,7 +23,7 @@
     "hyperid": "^3.1.0"
   },
   "peerDependencies": {
-    "@liaison/common": "*"
+    "@liquefied/common": "*"
   },
   "gitHead": "57c4e6b9c64ddfefdfa8f57be88edc90c7dfcfaa"
 }

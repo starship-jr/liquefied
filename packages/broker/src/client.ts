@@ -1,6 +1,6 @@
 import * as hyperId from "hyperid";
 import { Socket } from "net";
-import { Logger, Parser, MessageBuffer, Message } from "@liaison/common";
+import { Logger, Parser, MessageBuffer, Message } from "@liquefied/common";
 import { PubSub } from "./pusub";
 enum clientState {
     Initialization,

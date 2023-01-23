@@ -1,2 +1,2 @@
 export { Server } from "./server";
-export { LogLevel} from "@liaison/common";
+export { LogLevel} from "@liquefied/common";

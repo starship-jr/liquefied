@@ -1,6 +1,6 @@
 import * as net from 'net'
 import { Client } from './client';
-import { Logger, LogLevel } from '@liaison/common';
+import { Logger, LogLevel } from '@liquefied/common';
 import { PubSub } from './pusub'
 
 export class Server {

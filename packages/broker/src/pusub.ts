@@ -1,5 +1,5 @@
 import { Client } from "./client";
-import { Logger } from '@liaison/common';
+import { Logger } from '@liquefied/common';
 
 export class PubSub {
     channels: Map<string, Channel>;

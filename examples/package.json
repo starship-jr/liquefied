@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@liason/broker":"^0.0.1",
-    "@liason/client":"^0.0.1"
+    "@liquefied/broker":"*",
+    "@liquefied/client":"*"
   }
 }

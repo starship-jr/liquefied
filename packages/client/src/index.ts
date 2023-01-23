@@ -1,5 +1,5 @@
 import { Socket } from 'net';
-import { Logger, LogLevel, MessageBuffer, Message } from '@liaison/common';
+import { Logger, LogLevel, MessageBuffer, Message } from '@liquefied/common';
 enum clientState {
     Disconnected,
     Connecting,
