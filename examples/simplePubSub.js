@@ -1,4 +1,4 @@
-const {Client,LogLevel}=require('@liason/client')
+const {Client,LogLevel}=require('@liquefied/client')
 const subscriber = new Client(8080, "127.0.0.1",LogLevel.All)
 //Create a publisher
 const publisher = new Client(8080, "127.0.0.1",LogLevel.All);
