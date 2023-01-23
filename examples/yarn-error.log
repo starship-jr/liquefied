@@ -1,0 +1,51 @@
+Arguments: 
+  /home/aclave/.nvm/versions/node/v18.13.0/bin/node /home/aclave/.cache/node/corepack/yarn/1.22.19/bin/yarn.js install
+
+PATH: 
+  /home/aclave/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/bin/remote-cli:/home/aclave/.nvm/versions/node/v18.13.0/bin:/home/aclave/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jdk-8.0.312.7-hotspot/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2019.4.0/:/mnt/c/Program Files/dotnet/:/mnt/c/wamp64/bin/php/php7.3.5:/mnt/c/composer:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/TortoiseSVN/bin:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files (x86)/PDFtk/bin/:/mnt/c/Users/aclave/.cargo/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/aclave/AppData/Local/Programs/Python/Python36/Scripts/:/mnt/c/Users/aclave/AppData/Local/Programs/Python/Python36/:/mnt/c/Users/aclave/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/nodejs:/mnt/c/Program Files (x86)/Java/jdk-11.0.2/bin:/mnt/c/Program Files/PostgreSQL/10/bin:/mnt/c/Program Files (x86)/maven-3.6.2/bin:/mnt/c/wamp64/bin/mysql/mysql5.7.26/bin:/mnt/c/Program Files (x86)/Android/android-sdk/platform-tools:/mnt/c/Users/aclave/AppData/Local/Programs/Python/Python36/Lib:/mnt/c/Users/aclave/AppData/Local/Programs/Python/Python36/Lib/site-packages:/mnt/c/msys64/usr/bin:/mnt/c/tools:/mnt/c/Users/aclave/AppData/Roaming/Composer/vendor/bin:/mnt/c/Users/aclave/go/bin:/mnt/c/Users/aclave/.rustup/toolchains/nightly-x86_64-pc-windows-msvc/bin:/mnt/c/nginx:/mnt/c/Program Files/RabbitMQ Server/rabbitmq_server-3.8.3/sbin:/mnt/c/apache-jmeter-5.2.1/bin:/mnt/c/Program Files/:/mnt/c/Users/aclave/AppData/Roaming/Python/Python37/Scripts:/mnt/c/Users/aclave/Desktop/Projets/apk/TousAntiCovid Verif_v1.7.0_apkpure.com/dex2jar-2.0:/mnt/c/Users/aclave/perso/protoc-3.19.1-win64/bin:/mnt/c/Users/aclave/AppData/Roaming/npm:/mnt/c/msys64_l/usr/bin:/mnt/c/msys64_l/mingw64/bin:/mnt/c/Users/aclave/go/bin:/mnt/c/src/flutter/bin:/mnt/c/Users/aclave/.dotnet/tools:/mnt/c/Users/aclave/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/aclave/AppData/Local/Microsoft/WindowsApps:/usr/local/go/bin:/bin:/home/aclave/go/bin:/home/aclave/work/bin:/usr/local/go/bin:/home/aclave/work/bin:/home/aclave/go/bin:/home/aclave/work/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@liason%2fbroker: Not found
+      at params.callback [as _callback] (/home/aclave/.cache/node/corepack/yarn/1.22.19/lib/cli.js:66145:18)
+      at self.callback (/home/aclave/.cache/node/corepack/yarn/1.22.19/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/home/aclave/.cache/node/corepack/yarn/1.22.19/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/home/aclave/.cache/node/corepack/yarn/1.22.19/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "examples",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@liason/broker":"^0.0.1",
+      "@liason/client":"^0.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

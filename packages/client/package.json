@@ -1,0 +1,27 @@
+{
+  "name": "@liquefied/client",
+  "version": "1.0.1-alpha.0",
+  "private": false,
+  "description": "A client to subscribe and publish to the message broker server",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "Aurelien Clave",
+  "license": "MIT",
+  "homepage": "https://github.com/starship-jr/liaison",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/starship-jr/liaison"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --verbose"
+  },
+  "peerDependencies": {
+    "@liaison/common": "*"
+  },
+  "gitHead": "57c4e6b9c64ddfefdfa8f57be88edc90c7dfcfaa"
+}
